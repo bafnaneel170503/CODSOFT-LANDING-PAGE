@@ -1,0 +1,201 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .topics{
+    background-size: cover;
+    color: rgb(227, 18, 18);
+    text-align: center;
+    padding: 100px 0;
+  }
+  .topics h1 {
+    font-size: 36px;
+    margin-bottom: 2px;
+  }
+  
+  
+  .topics p{
+    font-size: 36px;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: rgb(90, 90, 103);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-table;
+    background-color: rgb(91, 91, 252);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .cta1-button {
+    display: inline-table;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .cta2-button {
+    display: inline-table;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .cta3-button {
+    display: inline-table;
+    background-color: rgb(225, 32, 64);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .cta4-button {
+    display: inline-table;
+    background-color: rgb(128, 18, 128);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .courses {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-card img {
+    max-width: 100%;
+  }
+  
+  .course-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .course-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .degree {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .degree-card{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .degree-card img {
+    max-width: 100%;
+  }
+  
+  .degree-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .degree-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0e0a0a;
+    color: white;
+  }
+  
